@@ -100,6 +100,16 @@ int main()
         {
             matrice[ales]=semn;
         }
+        else if(cin.fail())
+        {
+            system("Color 04");
+            cout<<"Nu poti executa aceasta mutare! Apasa tasta ENTER pentru a incerca din nou!";
+            jucator--;
+            cin.clear();
+            cin.ignore();
+            cin.get();
+            system("Color 0B");
+        }
         else
         {
             system("Color 04");
