@@ -123,7 +123,7 @@ int main()
     else
     {
         system("Color 06");
-        cout<<"EGALITATE! Puteti sa mai incercati odata :)";
+        cout<<"EGALITATE! Puteti sa mai incercati o data :)";
     }
     return 0;
 }
